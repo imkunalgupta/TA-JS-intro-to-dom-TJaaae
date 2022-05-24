@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: oldlace;
+    color: #777;
+    font-family: sans-serif;
+    line-height: 1.15;
+    text-align: center;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    padding: 12px;
+    background-color: #777;
+    margin-bottom: 24px;
+    font-size: 36px;
+}
+span{
+    font-size: 12px;
+    
+}
+button{
+    margin-top: 12px;
+    background-color: #777;
+    border-radius: 5px;
+    color: aliceblue;
+    border-color: #777;
+}
+
+hr:last-child {
+margin-right: 60%;
+}
+hr.image {
+    padding-bottom: 50%;
+}
+.page {
+    padding: 0 2rem 2rem 2rem;
+}
+.archieve {
+    display: grid;
+   grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+   );
+   grid-gap: 1em;
+}
+
+/*display: grid;
+grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+);
+grid-gap: 1em;*/
